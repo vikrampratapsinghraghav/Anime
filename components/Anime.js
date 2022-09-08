@@ -38,7 +38,7 @@ export default function Animes({ anime, navigation }) {
                 />
                 <View style={{ flex: 1, marginLeft: 12 }}>
                     <View>
-                        <Text style={{ fontSize: 22, paddingRight: 16, color: 'black' }}>
+                        <Text style={{ fontSize: 16, paddingRight: 16, color: 'black' }}>
                             {anime.title}
                         </Text>
                     </View>
@@ -50,7 +50,7 @@ export default function Animes({ anime, navigation }) {
                         }}>
                         <Text
                             style={{
-                                fontSize: 18,
+                                fontSize: 12,
                                 paddingLeft: 10,
                                 color: '#64676D',
                             }}>
@@ -58,7 +58,7 @@ export default function Animes({ anime, navigation }) {
                         </Text>
                         <Text
                             style={{
-                                fontSize: 18,
+                                fontSize: 12,
                                 paddingLeft: 10,
                                 color: '#64676D',
                             }}>
@@ -67,7 +67,7 @@ export default function Animes({ anime, navigation }) {
                         <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
                         <Text
                             style={{
-                                fontSize: 18,
+                                fontSize: 12,
                                 paddingLeft: 10,
                                 color: '#64676D',
                             }}>
